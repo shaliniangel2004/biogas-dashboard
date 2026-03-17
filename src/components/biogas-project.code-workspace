@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"name": "biogas-esp32",
+			"path": "../../../../biogas-esp32"
+		}
+	],
+	"settings": {}
+}

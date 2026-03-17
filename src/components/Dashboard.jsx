@@ -20,11 +20,11 @@ function Dashboard() {
   const API_URL = 'https://biogas-api.onrender.com';
 
   const THRESHOLDS = {
-    temperature1: { min: 20, max: 38, critical_min: 15, critical_max: 45, unit: '°C' },
-    temperature2: { min: 20, max: 38, critical_min: 15, critical_max: 45, unit: '°C' },
+    temperature1: { min: 25, max: 38, critical_min: 20, critical_max: 45, unit: '°C' },
+    temperature2: { min: 25, max: 38, critical_min: 20, critical_max: 45, unit: '°C' },
     pressure: { min: 1000, max: 1040, critical_min: 980, critical_max: 1060, unit: 'hPa' },
     ph_level: { min: 6.5, max: 7.8, critical_min: 6.0, critical_max: 8.5, unit: '' },
-    concentration: { min: 55, max: 75, critical_min: 45, critical_max: 85, unit: '%' }
+    concentration: { min: 50, max: 75, critical_min: 45, critical_max: 85, unit: '%' }
   };
 
   const checkThresholds = (data) => {
@@ -336,7 +336,7 @@ borderRadius:'20px'
 
 lastUpdate:{
 fontSize:'12px'
-},
+},                                                                                                  
 
 staleWarning:{
 fontSize:'11px',
